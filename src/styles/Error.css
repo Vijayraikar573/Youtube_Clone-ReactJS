@@ -1,0 +1,34 @@
+.err img{
+    position: relative;
+    top:120px;
+    left:550px;
+    
+
+    
+}
+.error{
+    display: flex;
+    flex-direction: column;
+}
+.error p{
+    text-align: center;
+    position: relative;
+    top:170px;
+    left:-70px;
+}
+.you img{
+   position: relative;
+   top:130px;
+   left: 605px;
+}
+.error button{
+    width:70px;
+    position: relative;
+    bottom:-70px;
+    left:650px;
+    background-color: red;
+    color:white;
+    border:none;
+    padding: 10px;
+    margin-top: 30px;
+}

@@ -1,0 +1,25 @@
+.categories{
+
+    position: fixed;
+    top:66px;
+    height: 60px;
+    
+    background-color: white;
+    width:100%;
+    z-index: 1;
+}
+.categorieslinks li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.categorieslinks{
+    padding: 0px;
+}
+.categorieslinks a{
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    background-color: rgb(243, 241, 241);
+    padding: 10px 25px;
+    border-radius: 5px;
+}                                                                                                                                                       

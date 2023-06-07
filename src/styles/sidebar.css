@@ -1,0 +1,35 @@
+.sideBar{
+    display: flex;
+    align-self: flex-start;
+    padding:0px 25px;
+    width:250px;
+    position: sticky;
+    top:70px;
+
+    
+    
+}
+.sidebarLinks ul{
+    list-style: none;
+    padding-left: 10px;
+}
+.sidebarLinks li{
+    display: flex;
+    align-items: center;
+    margin:5px 0px;
+    padding: 8px 15px;
+    width: 250px;
+
+}
+.sidebarLinks li:hover{
+    
+    background-color: rgb(213, 213, 213);
+    border-radius: 15px;
+}
+
+.sidebarLinks a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+    font-size:22px;
+}

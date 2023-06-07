@@ -1,0 +1,42 @@
+.videos{
+    display: flex ;
+    flex-wrap:wrap ;
+    justify-content: center;
+    position: relative;
+    top:70px;
+}
+.videolist{
+    width: 380px;
+    margin-left: 20px;
+}
+.videolist img{
+    border-radius: 10px;
+}
+.videolist img:hover{
+    transform: scale(1.06);
+    transition: 3;
+}
+.videolist p{
+    margin:0;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-self:flex-end ;
+}
+.two a{
+    text-decoration: none;
+    text-decoration: underline;
+    margin-left: 250px;
+    margin-bottom: 15px;
+    color: gray;
+    position: relative;
+    top:-20px;
+}
+.one{
+    color:gray;
+}
+.title{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:medium;
+}

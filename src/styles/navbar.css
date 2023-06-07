@@ -1,0 +1,54 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 60px;
+    position: fixed;
+    width:100%;  
+    background-color: white;  
+    z-index:1
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+}
+
+
+.link{
+    margin-right: 20px;
+}
+.picon{
+    border-radius: 100%;
+}
+
+.searchbar input{
+    height: 30px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius:20px ;
+    font-size: 18px;
+    padding:20px;
+}
+.searchbar input:focus{
+    outline: 1px solid blue;
+   
+}
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.searchicon{
+    position: absolute;
+    right: 30px;  
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
